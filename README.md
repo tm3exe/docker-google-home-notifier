@@ -10,6 +10,7 @@ DIR=$(dirname $0)
 DEVICE_NAME='device_name' # your google home name
 GOOGLE_HOME_IP='192.168.1.20' # your google home ip address
 LANGUAGE='pl' # your language
+PORT=8091 # local port as 'Rest-API'
 ```
 After modify, run './setup.sh'  
 `$ bash setup.sh`
