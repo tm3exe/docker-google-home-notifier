@@ -1,0 +1,4 @@
+google-home-notifier/
+.dockerignore
+.env
+*.org

@@ -1,0 +1,11 @@
+version: '2'
+services:
+    google-home-notifier:
+        build: .
+        image: tm3exe/docker-google-home-notifier
+        ports: 
+            - "${PORT}:8091"
+        volumes:
+            - ./google-home-notifier/:/google-home-notifier/
+        container_name: google-home-notifier
+        restart: unless-stopped
