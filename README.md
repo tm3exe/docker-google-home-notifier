@@ -39,7 +39,7 @@ google-home-notifier    | POST example:
 google-home-notifier    | curl -X POST -d "text=Hello Google Home" https://xxxxxx.ngrok.io/google-home-notifier
 ```
 When the endpoint is displayed, it is successful.  
-Try run `$ curl http:localhost:8091/google-home-notifier?text=Hello+Google+Home`
+Try run `$ curl http://localhost:8091/google-home-notifier?text=Hello+Google+Home`
 
 ## Note
 After 'npm install', it created 'node_modules'.  
